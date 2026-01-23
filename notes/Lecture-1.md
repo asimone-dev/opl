@@ -128,9 +128,10 @@ Game state must be saved to a file and reloaded as if uninterrupted.
 
 ---
 
-## Game Rules (Double-Six Dominoes)
+## Game Rules (Double-Six Set Dominoes)
 
-- 21 total tiles
+- 28 total tiles
+- Decreasin by 1 after each round, until 0-0 is played
 - Each player draws 8 tiles
 - First move: vertical 6–6
 
@@ -139,6 +140,12 @@ Game state must be saved to a file and reloaded as if uninterrupted.
 - P2: 3–6
 - P1: 6–5
 - P2: 5–5
+
+### Sample Output
+
+- 5     6
+- | 3-6 |
+- 5     6
 
 If a player cannot play:
 - Draw a tile
